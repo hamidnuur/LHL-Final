@@ -9,6 +9,7 @@ function Header() {
       <img 
         className='header__logo'
         src="images/sonder-logo.png"
+        alt=''
       />
 
       <div className='header__search'>
