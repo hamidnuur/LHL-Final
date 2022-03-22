@@ -6,7 +6,7 @@ function Header() {
     <div className='header'>
       <img 
         className='header_logo'
-        src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+        src="images/sonder-logo.png"
       />
 
       <div className='header_search'>
