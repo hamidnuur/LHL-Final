@@ -9,7 +9,7 @@ function Header() {
   const [{ basket }, dispatch] = useStateValue();
 
 
-
+ //linked the logo
   return (
     <div className='header'>
       <Link to= "/">
