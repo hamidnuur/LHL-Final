@@ -14,18 +14,24 @@ function Home() {
 
         <div className='home__row'>
           <Product 
+            id='123123123'
             title='DVSN - SEPT 9TH' 
             price={29.99} 
+            rating={4}
             image={'https://cdn.shopify.com/s/files/1/0094/8718/8015/products/71TF1tS2NLL._AC_SX425_400x.jpg?v=1625689136'}
           />
           <Product 
+            id='213213213'
             title='DVSN - SEPT 9TH' 
             price={29.99} 
+            rating={4}
             image={'https://cdn.shopify.com/s/files/1/0094/8718/8015/products/71TF1tS2NLL._AC_SX425_400x.jpg?v=1625689136'}
           />
           <Product 
+            id='321321321'
             title='DVSN - SEPT 9TH' 
             price={29.99} 
+            rating={4}
             image={'https://cdn.shopify.com/s/files/1/0094/8718/8015/products/71TF1tS2NLL._AC_SX425_400x.jpg?v=1625689136'}
           />
         </div>
