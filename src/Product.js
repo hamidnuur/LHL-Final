@@ -6,7 +6,7 @@ function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
-    // dispatch the item into the data layer
+    // dispatch the item into the datalayer
     dispatch({
       type: "ADD_TO_BASKET",
       item: {
