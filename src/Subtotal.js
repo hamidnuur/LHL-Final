@@ -5,6 +5,8 @@ import { useStateValue } from "./StateProvider";
 import { getBasketTotal } from "./reducer";
 import { useHistory } from "react-router-dom";
 
+
+
 function Subtotal() {
     const history = useHistory();
     const [{ basket }, dispatch] = useStateValue();
@@ -16,7 +18,7 @@ function Subtotal() {
             <>
               <p>
                 {/* work on later with payment */}
-                Subtotal (0 items): <strong>0</strong>
+                Subtotal ({basket.length} items): <strong>{value}</strong>
               </p>
               <small className="subtotal__gift">
                 <input type="checkbox" /> This order contains a gift
@@ -24,7 +26,7 @@ function Subtotal() {
             </>
           )}
           decimalScale={2}
-          value={0} // work on later
+          value={getBasketTotal(basket)} // work on later
           displayType={"text"}
           thousandSeparator={true}
           prefix={"$"}
