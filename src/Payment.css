@@ -10,6 +10,13 @@
     border-bottom: 1px solid lightgray;
   }
 
-  .payment-container > h1 a {
+  .payment__container > h1 a {
     text-decoration: none;
+  }
+
+  .payment__section {
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
   }
