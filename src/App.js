@@ -50,7 +50,7 @@ function App() {
           <Route path='/payment'>
             <Header />
             <Payment />
-            <h1> I am the payment</h1>
+            {/* <h1> I am the payment</h1> */}
           </Route>
           <Route path='/'>
             <Header />

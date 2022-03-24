@@ -1,7 +1,9 @@
 import React from 'react';
 import './Payment.css';
+import { useStateValue } from "./StateProvider";
 
 function Payment() {
+    const [{ basket, user }, dispatch] = useStateValue();
   return (
         <div className='payment'>
       <div className='payment__container'>
@@ -9,6 +11,12 @@ function Payment() {
           <div className='payment__section'>
               <div className='payment__title'>
                   <h3> Delivery Address</h3>
+              </div>
+              <div className='payment__address'>
+                  <p>{user?.email}</p>
+                  <p>555 Dundas Street</p>
+                  <p>Toronto, Ontario</p>
+
               </div>
 
 
