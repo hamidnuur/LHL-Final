@@ -7,6 +7,9 @@ function Payment() {
       <div className='payment__container'>
           {/* Payment section - delivery address */}
           <div className='payment__section'>
+              <div className='payment__title'>
+                  <h3> Delivery Address</h3>
+              </div>
 
 
           </div>
