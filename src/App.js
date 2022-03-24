@@ -43,6 +43,10 @@ function App() {
           <Route path='/checkout'>
             <Header />
             <Checkout />
+          </Route><Route path="/payment">
+            <Header />
+            <Payment />
+            <h1> I am the payment</h1>
           </Route>
           <Route path='/'>
             <Header />
