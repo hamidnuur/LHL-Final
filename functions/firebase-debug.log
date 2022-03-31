@@ -1,0 +1,92 @@
+[debug] [2022-03-30T16:03:23.924Z] ----------------------------------------------------------------------
+[debug] [2022-03-30T16:03:23.925Z] Command:       /Users/work/.nvm/versions/node/v15.14.0/bin/node /Users/work/.nvm/versions/node/v15.14.0/bin/firebase emulators:start
+[debug] [2022-03-30T16:03:23.925Z] CLI Version:   10.5.0
+[debug] [2022-03-30T16:03:23.926Z] Platform:      darwin
+[debug] [2022-03-30T16:03:23.926Z] Node Version:  v15.14.0
+[debug] [2022-03-30T16:03:23.931Z] Time:          Wed Mar 30 2022 12:03:23 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-03-30T16:03:23.931Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-30T16:03:23.935Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-03-30T16:03:24.005Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-30T16:03:24.005Z] > authorizing via signed-in user (hamidsharif2001@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2022-03-30T16:03:24.020Z] [hub] writing locator at /var/folders/1y/2g1s_8z52dx667kvh8gsj61h0000gp/T/hub-lhl-final-82e6c.json
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[warn] ⚠  Your requested "node" version "16" doesn't match your global version "15". Using node@15 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"16\" doesn't match your global version \"15\". Using node@15 from host."}}
+[debug] [2022-03-30T16:03:24.060Z] defaultcredentials: writing to file /Users/work/.config/firebase/hamidsharif2001_gmail_com_application_default_credentials.json
+[debug] [2022-03-30T16:03:24.064Z] Setting GAC to /Users/work/.config/firebase/hamidsharif2001_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/work/.config/firebase/hamidsharif2001_gmail_com_application_default_credentials.json"}}
+[debug] [2022-03-30T16:03:24.065Z] > refreshing access token with scopes: []
+[debug] [2022-03-30T16:03:24.065Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-03-30T16:03:24.142Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-03-30T16:03:24.142Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-03-30T16:03:24.192Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Wed, 30 Mar 2022 16:03:24 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-03-30T16:03:24.231Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lhl-final-82e6c/adminSdkConfig [none]
+[debug] [2022-03-30T16:03:24.508Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lhl-final-82e6c/adminSdkConfig 200
+[debug] [2022-03-30T16:03:24.509Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lhl-final-82e6c/adminSdkConfig {"projectId":"lhl-final-82e6c","storageBucket":"lhl-final-82e6c.appspot.com","locationId":"us-central"}
+[debug] [2022-03-30T16:03:24.539Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/lhl-final-82e6c/sites 
+[debug] [2022-03-30T16:03:25.143Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/lhl-final-82e6c/sites 200
+[debug] [2022-03-30T16:03:25.144Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/lhl-final-82e6c/sites {"sites":[{"name":"projects/917240882484/sites/lhl-final-82e6c","defaultUrl":"https://lhl-final-82e6c.web.app","appId":"1:917240882484:web:24001d8d0e1d4a16273161","type":"DEFAULT_SITE"}]}
+[debug] [2022-03-30T16:03:25.145Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lhl-final-82e6c/webApps/1:917240882484:web:24001d8d0e1d4a16273161/config [none]
+[debug] [2022-03-30T16:03:25.557Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lhl-final-82e6c/webApps/1:917240882484:web:24001d8d0e1d4a16273161/config 200
+[debug] [2022-03-30T16:03:25.557Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lhl-final-82e6c/webApps/1:917240882484:web:24001d8d0e1d4a16273161/config {"projectId":"lhl-final-82e6c","appId":"1:917240882484:web:24001d8d0e1d4a16273161","storageBucket":"lhl-final-82e6c.appspot.com","locationId":"us-central","apiKey":"AIzaSyCpkTdEJFuTVflLMLbKPWbjbg0Gjdn14tg","authDomain":"lhl-final-82e6c.firebaseapp.com","messagingSenderId":"917240882484"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-03-30T16:03:25.863Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-03-30T16:03:25.864Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-03-30T16:03:25.864Z] Starting Emulator UI with command {"binary":"node","args":["/Users/work/.cache/firebase/emulators/ui-v1.6.5/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/work/.cache/firebase/emulators/ui-v1.6.5/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-03-30T16:03:26.006Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "/Users/work/lighthouse/w11/lhl-final/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/work/lighthouse/w11/lhl-final/functions\" for Cloud Functions..."}}
+[debug] [2022-03-30T16:03:26.176Z] Validating nodejs source
+[debug] [2022-03-30T16:03:27.704Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.211.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-03-30T16:03:27.704Z] Building nodejs source
+[debug] [2022-03-30T16:03:27.704Z] Analyzing nodejs backend spec
+[info] ✔  functions[us-central1-api]: http function initialized (http://localhost:5001/lhl-final-82e6c/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/lhl-final-82e6c/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
